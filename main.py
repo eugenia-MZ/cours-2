@@ -13,7 +13,7 @@ fruits.pop(1)
 # TODO: Sort the list alphabetically
 fruits.sort()
 # TODO: Create a new list with the first three fruits
-nouvelle_liste = fruits[0:3]
+nouvelle_liste = fruits[:3]
 
 # Print the original list and the new list
 print(f"Fruits :{fruits}")
